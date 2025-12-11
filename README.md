@@ -71,4 +71,25 @@ const response = await ai.models.generateContent({
 ```bash
 ├── components/       # UI Components (Hero, Navbar, TourGrid, etc.)
 ├── services/         # API integrations (Gemini AI service)
-├── constants.ts      # Static data (Tours, Testimonials,
+├── constants.ts      # Static data (Tours, Testimonials, Map Markers)
+├── types.ts          # TypeScript interfaces
+├── App.tsx           # Main application layout
+├── index.tsx         # Entry point
+└── index.html        # HTML shell & Tailwind Config
+```
+
+## 🎨 Customization
+
+To adapt this template for another location or agency:
+
+1. **Update Content:** Modify `constants.ts` to change tour data, prices, and images.
+2. **Theming:** Adjust the Tailwind config in `index.html` to match your brand colors.
+3. **AI Persona:** Update the `systemInstruction` in `services/geminiService.ts` to reflect the new location's expertise.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+*Designed with ❤️ for the tourism industry.*
